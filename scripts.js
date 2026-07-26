@@ -158,6 +158,8 @@ btnSi.addEventListener("click", function () {
 
     setTimeout(function () {
         iniciarLluviaFlores();
+        iniciarLluviaRosas();
+        iniciarLluviaTulipan();
     }, 600);
 });
 
@@ -195,8 +197,6 @@ observadorFin.observe(marcadorFin);
 
 btnContinuar.addEventListener('click', function () {
     cambiarPantalla(pantallaInicio, pantallaFotos);
-
-
 
 });
 

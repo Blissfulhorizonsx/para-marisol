@@ -410,6 +410,15 @@ h1 {
     width: 30%;
 }
 
+.indicador-fotos {
+    width: auto;
+}
+
+.indicador-fotos p {
+    width: auto;
+    text-align: center;
+}
+
 
 .escena-3d {
     perspective: 800px;
@@ -462,4 +471,9 @@ h1 {
         transform: translateY(0) translateZ(0) rotateX(0deg) scale(1);
 
     }
+}
+
+
+#pantalla-celebracion h1 {
+    margin-bottom: 20px;
 }
